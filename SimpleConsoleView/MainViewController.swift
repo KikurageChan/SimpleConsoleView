@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  KCSimpleConsoleView
+//  SimpleConsoleView
 //
 //  Created by 木耳ちゃん on 2017/01/12.
 //  Copyright © 2017年 木耳ちゃん. All rights reserved.

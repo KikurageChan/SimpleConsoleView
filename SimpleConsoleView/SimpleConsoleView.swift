@@ -1,6 +1,6 @@
 //
-//  KCSimpleConsoleView.swift
-//  KCSimpleConsoleView
+//  SimpleConsoleView.swift
+//  SimpleConsoleView
 //
 //  Created by 木耳ちゃん on 2017/01/12.
 //  Copyright © 2017年 木耳ちゃん. All rights reserved.
@@ -44,6 +44,7 @@ final class SimpleConsoleView: UIView {
         addSubview(view)
         becomeFirstResponder()
         swipeableView.delegate = self
+        textView.backgroundColor = UIColor.random
     }
     
     @IBAction func hideAction(_ sender: Any) {
@@ -74,14 +75,14 @@ final class SimpleConsoleView: UIView {
         textView.text = ""
     }
     
-    func display(_ text: String) {
+    public func display(_ text: String) {
         textView.text = textView.text + text
         if textView.frame.size.height <= textView.sizeThatFits(textView.frame.size).height {
             textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)
         }
     }
     
-    func display(atNewLine text: String) {
+    public func display(atNewLine text: String) {
         textView.text = textView.text + text
         if textView.frame.size.height <= textView.sizeThatFits(textView.frame.size).height {
             textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)

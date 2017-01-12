@@ -1,6 +1,6 @@
 //
 //  HideButton.swift
-//  KCSimpleConsoleView
+//  SimpleConsoleView
 //
 //  Created by 木耳ちゃん on 2017/01/12.
 //  Copyright © 2017年 木耳ちゃん. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HideButton: UIButton {
+final class HideButton: UIButton {
     
     var upImage = UIImage(named: "Hide_up")
     var downImage = UIImage(named: "Hide_down")
@@ -23,5 +23,4 @@ class HideButton: UIButton {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
 }
