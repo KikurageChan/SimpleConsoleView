@@ -18,8 +18,10 @@ final class KCSimpleConsoleView: UIView {
     
     private(set) var screenSize: CGSize!
     private(set) var defaultFrame: CGRect!
-    private(set) var hidePoint: CGPoint!
     private(set) var minSize: CGSize!
+    private(set) var hideFrame: CGRect!
+    private(set) var lastFrame: CGRect!
+    private(set) var isAnimating = false
     
     @IBOutlet weak var hideButton: HideButton!
     @IBOutlet weak var swipeableView: SwipeableView!
@@ -33,7 +35,8 @@ final class KCSimpleConsoleView: UIView {
         screenSize = UIScreen.main.bounds.size
         defaultFrame = CGRect(x: 0, y: screenSize.height - 150, width: screenSize.width, height: 150)
         minSize = CGSize(width: UIScreen.main.bounds.width, height: 44)
-        hidePoint = CGPoint(x: 0, y: screenSize.height - minSize.height)
+        hideFrame = CGRect(origin: CGPoint(x: 0, y: screenSize.height - minSize.height), size: minSize)
+        lastFrame = defaultFrame
         super.init(frame: defaultFrame)
         let view = Bundle.main.loadNibNamed("KCSimpleConsoleView", owner: self, options: nil)?.first as! UIView
         autoresizesSubviews = true
@@ -46,16 +49,24 @@ final class KCSimpleConsoleView: UIView {
     @IBAction func hideAction(_ sender: Any) {
         if !hideButton.isPressed {
             //隠れていなかったら
+            isAnimating = true
             hideButton.isPressed = true
-            UIView.animate(withDuration: 0.5) {
-                self.frame = CGRect(origin: self.hidePoint, size: self.minSize)
-            }
+            lastFrame = frame
+            UIView.animate(withDuration: 0.5, animations: {
+                self.frame.origin = self.hideFrame.origin
+            }, completion: { finish in
+                self.frame.size = self.hideFrame.size
+                self.isAnimating = false
+            })
         }else {
             //隠れていたら
+            isAnimating = true
             hideButton.isPressed = false
-            UIView.animate(withDuration: 0.5) {
-                self.frame = self.defaultFrame
-            }
+            UIView.animate(withDuration: 0.5, animations: {
+                self.frame = self.lastFrame
+            }, completion: { finish in
+                self.isAnimating = false
+            })
         }
     }
     
@@ -65,9 +76,10 @@ final class KCSimpleConsoleView: UIView {
     
     func display(_ text: String, isBR: Bool) {
         textView.text = textView.text + text
+        if textView.frame.size.height <= textView.sizeThatFits(textView.frame.size).height {
+            textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)
+        }
         if isBR { textView.text = textView.text + "\n" }
-        textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)
-        
     }
     
     override var canBecomeFirstResponder: Bool {
@@ -76,7 +88,7 @@ final class KCSimpleConsoleView: UIView {
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == UIEventSubtype.motionShake {
-            isHidden = !isHidden
+            isHidden ? fadeIn() : fadeOut()
         }
     }
 }
@@ -84,6 +96,7 @@ final class KCSimpleConsoleView: UIView {
 extension KCSimpleConsoleView: SwipeableViewDelegate {
     
     func swipe(vertical d: CGFloat) {
+        if isAnimating { return }
         //上に行き過ぎの場合
         if frame.origin.y + d < minSize.height { return }
         //下に行き過ぎの場合
