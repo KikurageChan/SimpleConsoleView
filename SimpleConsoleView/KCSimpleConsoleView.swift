@@ -8,10 +8,10 @@
 
 import UIKit
 
-final class KCSimpleConsoleView: UIView {
-    class var getInstance : KCSimpleConsoleView {
+final class SimpleConsoleView: UIView {
+    class var getInstance : SimpleConsoleView {
         struct Static {
-            static let instance : KCSimpleConsoleView = KCSimpleConsoleView()
+            static let instance : SimpleConsoleView = SimpleConsoleView()
         }
         return Static.instance
     }
@@ -38,7 +38,7 @@ final class KCSimpleConsoleView: UIView {
         hideFrame = CGRect(origin: CGPoint(x: 0, y: screenSize.height - minSize.height), size: minSize)
         lastFrame = defaultFrame
         super.init(frame: defaultFrame)
-        let view = Bundle.main.loadNibNamed("KCSimpleConsoleView", owner: self, options: nil)?.first as! UIView
+        let view = Bundle.main.loadNibNamed("SimpleConsoleView", owner: self, options: nil)?.first as! UIView
         autoresizesSubviews = true
         view.frame = bounds
         addSubview(view)
@@ -74,12 +74,19 @@ final class KCSimpleConsoleView: UIView {
         textView.text = ""
     }
     
-    func display(_ text: String, isBR: Bool) {
+    func display(_ text: String) {
         textView.text = textView.text + text
         if textView.frame.size.height <= textView.sizeThatFits(textView.frame.size).height {
             textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)
         }
-        if isBR { textView.text = textView.text + "\n" }
+    }
+    
+    func display(atNewLine text: String) {
+        textView.text = textView.text + text
+        if textView.frame.size.height <= textView.sizeThatFits(textView.frame.size).height {
+            textView.contentOffset = CGPoint(x: 0, y: textView.contentSize.height - textView.frame.size.height)
+        }
+        textView.text = textView.text + "\n"
     }
     
     override var canBecomeFirstResponder: Bool {
@@ -93,8 +100,7 @@ final class KCSimpleConsoleView: UIView {
     }
 }
 
-extension KCSimpleConsoleView: SwipeableViewDelegate {
-    
+extension SimpleConsoleView: SwipeableViewDelegate {
     func swipe(vertical d: CGFloat) {
         if isAnimating { return }
         //上に行き過ぎの場合

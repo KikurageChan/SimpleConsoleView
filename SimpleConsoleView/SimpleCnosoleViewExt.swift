@@ -12,14 +12,14 @@ import UIKit
 extension UIViewController {
     
     func SCPrint<T: CustomStringConvertible>(_ item: T) {
-        let consoleView = KCSimpleConsoleView.getInstance
+        let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
-        consoleView.display(item.description,isBR: false)
+        consoleView.display(item.description)
     }
     
     func SCPrintln<T: CustomStringConvertible>(_ item: T) {
-        let consoleView = KCSimpleConsoleView.getInstance
+        let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
-        consoleView.display(item.description,isBR: true)
+        consoleView.display(atNewLine: item.description)
     }
 }

@@ -24,9 +24,9 @@
 		DF51C95C1E27AE8B005A48D6 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C94F1E27AE8B005A48D6 /* UIViewControllerExt.swift */; };
 		DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */; };
 		DF51C9631E27AE93005A48D6 /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C95E1E27AE93005A48D6 /* HideButton.swift */; };
-		DF51C9641E27AE93005A48D6 /* KCSimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C95F1E27AE93005A48D6 /* KCSimpleCnosoleViewExt.swift */; };
+		DF51C9641E27AE93005A48D6 /* SimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */; };
 		DF51C9651E27AE93005A48D6 /* KCSimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9601E27AE93005A48D6 /* KCSimpleConsoleView.swift */; };
-		DF51C9661E27AE93005A48D6 /* KCSimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF51C9611E27AE93005A48D6 /* KCSimpleConsoleView.xib */; };
+		DF51C9661E27AE93005A48D6 /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */; };
 		DF51C9671E27AE93005A48D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9621E27AE93005A48D6 /* MainViewController.swift */; };
 		DF51C9691E27AEA6005A48D6 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */; };
 		DF51C96B1E27AEDD005A48D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF51C96A1E27AEDD005A48D6 /* Main.storyboard */; };
@@ -52,9 +52,9 @@
 		DF51C94F1E27AE8B005A48D6 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		DF51C95E1E27AE93005A48D6 /* HideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
-		DF51C95F1E27AE93005A48D6 /* KCSimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
+		DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
 		DF51C9601E27AE93005A48D6 /* KCSimpleConsoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSimpleConsoleView.swift; sourceTree = "<group>"; };
-		DF51C9611E27AE93005A48D6 /* KCSimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KCSimpleConsoleView.xib; sourceTree = "<group>"; };
+		DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
 		DF51C9621E27AE93005A48D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
 		DF51C96A1E27AEDD005A48D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 				DF51C9381E27AE1A005A48D6 /* Assets.xcassets */,
 				DF51C93A1E27AE1A005A48D6 /* LaunchScreen.storyboard */,
 				DF51C93D1E27AE1A005A48D6 /* Info.plist */,
-				DF51C9611E27AE93005A48D6 /* KCSimpleConsoleView.xib */,
-				DF51C95F1E27AE93005A48D6 /* KCSimpleCnosoleViewExt.swift */,
+				DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */,
+				DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */,
 				DF51C9431E27AE8B005A48D6 /* Extensions */,
 				DF51C9601E27AE93005A48D6 /* KCSimpleConsoleView.swift */,
 				DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */,
@@ -188,7 +188,7 @@
 			files = (
 				DF51C93C1E27AE1A005A48D6 /* LaunchScreen.storyboard in Resources */,
 				DF51C9391E27AE1A005A48D6 /* Assets.xcassets in Resources */,
-				DF51C9661E27AE93005A48D6 /* KCSimpleConsoleView.xib in Resources */,
+				DF51C9661E27AE93005A48D6 /* SimpleConsoleView.xib in Resources */,
 				DF51C96B1E27AEDD005A48D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 				DF51C9591E27AE8B005A48D6 /* UINavigationBarExt.swift in Sources */,
 				DF51C9511E27AE8B005A48D6 /* DateExt.swift in Sources */,
 				DF51C9671E27AE93005A48D6 /* MainViewController.swift in Sources */,
-				DF51C9641E27AE93005A48D6 /* KCSimpleCnosoleViewExt.swift in Sources */,
+				DF51C9641E27AE93005A48D6 /* SimpleCnosoleViewExt.swift in Sources */,
 				DF51C9521E27AE8B005A48D6 /* NSAttributedStringExt.swift in Sources */,
 				DF51C9691E27AEA6005A48D6 /* SwipeableView.swift in Sources */,
 			);
@@ -374,6 +374,7 @@
 				DF51C9421E27AE1A005A48D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
