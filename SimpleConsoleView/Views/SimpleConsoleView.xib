@@ -11,35 +11,40 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleConsoleView" customModule="SimpleConsoleView" customModuleProvider="target">
             <connections>
+                <outlet property="bottomLineView" destination="NBu-Sl-sBW" id="Azr-cU-e66"/>
+                <outlet property="dotImageView" destination="5sg-Dw-xiG" id="MaV-8i-LCT"/>
                 <outlet property="hideButton" destination="XRq-5d-0DV" id="HI7-T9-Gtp"/>
                 <outlet property="swipeableView" destination="VCG-Ow-5KD" id="cM3-WZ-VUe"/>
                 <outlet property="textView" destination="IM0-gi-O5c" id="eTb-Rx-4eL"/>
+                <outlet property="toolBar" destination="QBE-Ti-5YE" id="Qow-Fn-UXd"/>
+                <outlet property="topLineView" destination="ryb-kv-Lyz" id="b5R-gP-BPn"/>
+                <outlet property="trashButton" destination="YXX-0j-Qgh" id="iXf-0S-Tcc"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="455" height="228"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <rect key="frame" x="0.0" y="0.0" width="311" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBE-Ti-5YE">
-                    <rect key="frame" x="0.0" y="0.0" width="455" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="311" height="44"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryb-kv-Lyz">
-                            <rect key="frame" x="0.0" y="0.0" width="455" height="1"/>
+                            <rect key="frame" x="0.0" y="0.0" width="311" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="zQd-TZ-ukV"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NBu-Sl-sBW">
-                            <rect key="frame" x="0.0" y="43" width="455" height="1"/>
+                            <rect key="frame" x="0.0" y="43" width="311" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="U7m-Hk-RVH"/>
                             </constraints>
                         </view>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXX-0j-Qgh">
-                            <rect key="frame" x="411" y="0.0" width="44" height="44"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXX-0j-Qgh" customClass="TrashButton" customModule="SimpleConsoleView" customModuleProvider="target">
+                            <rect key="frame" x="267" y="0.0" width="44" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="44" id="edn-54-mrY"/>
                                 <constraint firstAttribute="height" constant="44" id="vFo-un-1IR"/>
@@ -51,14 +56,14 @@
                             </connections>
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VCG-Ow-5KD" customClass="SwipeableView" customModule="SimpleConsoleView" customModuleProvider="target">
-                            <rect key="frame" x="202.5" y="0.0" width="50" height="44"/>
+                            <rect key="frame" x="130.5" y="0.0" width="50" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="1oj-yI-xtN"/>
                                 <constraint firstAttribute="width" constant="50" id="aMg-dF-EiF"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="5sg-Dw-xiG">
-                            <rect key="frame" x="217.5" y="19" width="20" height="6"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="5sg-Dw-xiG" customClass="DotImageView" customModule="SimpleConsoleView" customModuleProvider="target">
+                            <rect key="frame" x="145.5" y="19" width="20" height="6"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="6" id="8pY-3Z-7Lz"/>
                                 <constraint firstAttribute="width" constant="20" id="9Gd-iT-96w"/>
@@ -76,7 +81,7 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="ryb-kv-Lyz" firstAttribute="leading" secondItem="QBE-Ti-5YE" secondAttribute="leading" id="13J-DH-R38"/>
                         <constraint firstItem="NBu-Sl-sBW" firstAttribute="leading" secondItem="QBE-Ti-5YE" secondAttribute="leading" id="AR8-Y5-Cyf"/>
@@ -96,7 +101,7 @@
                     </constraints>
                 </view>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM0-gi-O5c">
-                    <rect key="frame" x="0.0" y="44" width="455" height="184"/>
+                    <rect key="frame" x="0.0" y="44" width="311" height="88"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -116,7 +121,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="36.5" y="-58"/>
+            <point key="canvasLocation" x="146.5" y="-106"/>
         </view>
     </objects>
     <resources>

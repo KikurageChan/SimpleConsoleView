@@ -1,6 +1,6 @@
 //
 //  HideButton.swift
-//  KCSimpleConsoleView
+//  SimpleConsoleView
 //
 //  Created by 木耳ちゃん on 2017/01/12.
 //  Copyright © 2017年 木耳ちゃん. All rights reserved.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class HideButton: UIButton {
+final class HideButton: UIButton {
     
-    var upImage = UIImage(named: "Hide_up")
-    var downImage = UIImage(named: "Hide_down")
+    var upImage = UIImage(named: "Hide_up")?.withRenderingMode(.alwaysTemplate)
+    var downImage = UIImage(named: "Hide_down")?.withRenderingMode(.alwaysTemplate)
     
     var isPressed = false {
         didSet {
@@ -22,6 +22,7 @@ class HideButton: UIButton {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setImage(downImage, for: .normal)
+        tintColor = UIColor(hex: 0x979797)
     }
-    
 }
