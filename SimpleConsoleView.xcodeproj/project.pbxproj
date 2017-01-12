@@ -23,15 +23,15 @@
 		DF51C95B1E27AE8B005A48D6 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C94E1E27AE8B005A48D6 /* UITableViewExt.swift */; };
 		DF51C95C1E27AE8B005A48D6 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C94F1E27AE8B005A48D6 /* UIViewControllerExt.swift */; };
 		DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */; };
-		DF51C9631E27AE93005A48D6 /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C95E1E27AE93005A48D6 /* HideButton.swift */; };
-		DF51C9641E27AE93005A48D6 /* SimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */; };
-		DF51C9651E27AE93005A48D6 /* SimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9601E27AE93005A48D6 /* SimpleConsoleView.swift */; };
-		DF51C9661E27AE93005A48D6 /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */; };
-		DF51C9671E27AE93005A48D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9621E27AE93005A48D6 /* MainViewController.swift */; };
-		DF51C9691E27AEA6005A48D6 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */; };
-		DF51C96B1E27AEDD005A48D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF51C96A1E27AEDD005A48D6 /* Main.storyboard */; };
-		DF677CDC1E27FD8C00CEDEF4 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */; };
-		DF677CDE1E27FE0700CEDEF4 /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */; };
+		DF677CE91E2803F600CEDEF4 /* SimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */; };
+		DF677CEA1E2803F600CEDEF4 /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */; };
+		DF677CEB1E2803F600CEDEF4 /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE51E2803F600CEDEF4 /* DotImageView.swift */; };
+		DF677CEC1E2803F600CEDEF4 /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE61E2803F600CEDEF4 /* HideButton.swift */; };
+		DF677CED1E2803F600CEDEF4 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */; };
+		DF677CEE1E2803F600CEDEF4 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE81E2803F600CEDEF4 /* TrashButton.swift */; };
+		DF677CF41E28045E00CEDEF4 /* SimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CF31E28045E00CEDEF4 /* SimpleCnosoleViewExt.swift */; };
+		DF677CF81E28049D00CEDEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF677CF61E28049D00CEDEF4 /* Main.storyboard */; };
+		DF677CF91E28049D00CEDEF4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CF71E28049D00CEDEF4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,15 +53,15 @@
 		DF51C94E1E27AE8B005A48D6 /* UITableViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
 		DF51C94F1E27AE8B005A48D6 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		DF51C95E1E27AE93005A48D6 /* HideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
-		DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
-		DF51C9601E27AE93005A48D6 /* SimpleConsoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleConsoleView.swift; sourceTree = "<group>"; };
-		DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
-		DF51C9621E27AE93005A48D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
-		DF51C96A1E27AEDD005A48D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
-		DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotImageView.swift; path = Extensions/DotImageView.swift; sourceTree = "<group>"; };
+		DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleConsoleView.swift; sourceTree = "<group>"; };
+		DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
+		DF677CE51E2803F600CEDEF4 /* DotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotImageView.swift; sourceTree = "<group>"; };
+		DF677CE61E2803F600CEDEF4 /* HideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
+		DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
+		DF677CE81E2803F600CEDEF4 /* TrashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
+		DF677CF31E28045E00CEDEF4 /* SimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
+		DF677CF61E28049D00CEDEF4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF677CF71E28049D00CEDEF4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,19 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				DF51C9311E27AE1A005A48D6 /* AppDelegate.swift */,
-				DF51C96A1E27AEDD005A48D6 /* Main.storyboard */,
-				DF51C9621E27AE93005A48D6 /* MainViewController.swift */,
 				DF51C9381E27AE1A005A48D6 /* Assets.xcassets */,
 				DF51C93A1E27AE1A005A48D6 /* LaunchScreen.storyboard */,
 				DF51C93D1E27AE1A005A48D6 /* Info.plist */,
-				DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */,
-				DF51C9601E27AE93005A48D6 /* SimpleConsoleView.swift */,
+				DF677CF21E28045E00CEDEF4 /* Commons */,
+				DF677CE11E2803F600CEDEF4 /* Views */,
+				DF677CF51E28049D00CEDEF4 /* Controllers */,
 				DF51C9431E27AE8B005A48D6 /* Extensions */,
-				DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */,
-				DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */,
-				DF51C95E1E27AE93005A48D6 /* HideButton.swift */,
-				DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */,
-				DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */,
 			);
 			path = SimpleConsoleView;
 			sourceTree = "<group>";
@@ -130,6 +124,44 @@
 				DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF677CE11E2803F600CEDEF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */,
+				DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */,
+				DF677CE41E2803F600CEDEF4 /* Tools */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF677CE41E2803F600CEDEF4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DF677CE51E2803F600CEDEF4 /* DotImageView.swift */,
+				DF677CE61E2803F600CEDEF4 /* HideButton.swift */,
+				DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */,
+				DF677CE81E2803F600CEDEF4 /* TrashButton.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DF677CF21E28045E00CEDEF4 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				DF677CF31E28045E00CEDEF4 /* SimpleCnosoleViewExt.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		DF677CF51E28049D00CEDEF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF677CF61E28049D00CEDEF4 /* Main.storyboard */,
+				DF677CF71E28049D00CEDEF4 /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +226,8 @@
 			files = (
 				DF51C93C1E27AE1A005A48D6 /* LaunchScreen.storyboard in Resources */,
 				DF51C9391E27AE1A005A48D6 /* Assets.xcassets in Resources */,
-				DF51C9661E27AE93005A48D6 /* SimpleConsoleView.xib in Resources */,
-				DF51C96B1E27AEDD005A48D6 /* Main.storyboard in Resources */,
+				DF677CEA1E2803F600CEDEF4 /* SimpleConsoleView.xib in Resources */,
+				DF677CF81E28049D00CEDEF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,27 +238,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF51C9631E27AE93005A48D6 /* HideButton.swift in Sources */,
+				DF677CF91E28049D00CEDEF4 /* MainViewController.swift in Sources */,
 				DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */,
-				DF677CDC1E27FD8C00CEDEF4 /* TrashButton.swift in Sources */,
+				DF677CEC1E2803F600CEDEF4 /* HideButton.swift in Sources */,
+				DF677CEE1E2803F600CEDEF4 /* TrashButton.swift in Sources */,
 				DF51C9541E27AE8B005A48D6 /* NSNotificationObservableExt.swift in Sources */,
 				DF51C95B1E27AE8B005A48D6 /* UITableViewExt.swift in Sources */,
 				DF51C9531E27AE8B005A48D6 /* NSMutableAttributedStringExt.swift in Sources */,
+				DF677CEB1E2803F600CEDEF4 /* DotImageView.swift in Sources */,
 				DF51C95A1E27AE8B005A48D6 /* UISwitchExt.swift in Sources */,
 				DF51C9571E27AE8B005A48D6 /* UICollectionViewExt.swift in Sources */,
 				DF51C9321E27AE1A005A48D6 /* AppDelegate.swift in Sources */,
 				DF51C9581E27AE8B005A48D6 /* UIColorExt.swift in Sources */,
 				DF51C9561E27AE8B005A48D6 /* StringExt.swift in Sources */,
 				DF51C9551E27AE8B005A48D6 /* NSObjectExt.swift in Sources */,
-				DF51C9651E27AE93005A48D6 /* SimpleConsoleView.swift in Sources */,
-				DF677CDE1E27FE0700CEDEF4 /* DotImageView.swift in Sources */,
 				DF51C95C1E27AE8B005A48D6 /* UIViewControllerExt.swift in Sources */,
 				DF51C9591E27AE8B005A48D6 /* UINavigationBarExt.swift in Sources */,
 				DF51C9511E27AE8B005A48D6 /* DateExt.swift in Sources */,
-				DF51C9671E27AE93005A48D6 /* MainViewController.swift in Sources */,
-				DF51C9641E27AE93005A48D6 /* SimpleCnosoleViewExt.swift in Sources */,
+				DF677CED1E2803F600CEDEF4 /* SwipeableView.swift in Sources */,
+				DF677CE91E2803F600CEDEF4 /* SimpleConsoleView.swift in Sources */,
+				DF677CF41E28045E00CEDEF4 /* SimpleCnosoleViewExt.swift in Sources */,
 				DF51C9521E27AE8B005A48D6 /* NSAttributedStringExt.swift in Sources */,
-				DF51C9691E27AEA6005A48D6 /* SwipeableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
