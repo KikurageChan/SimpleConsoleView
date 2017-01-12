@@ -30,6 +30,8 @@
 		DF51C9671E27AE93005A48D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9621E27AE93005A48D6 /* MainViewController.swift */; };
 		DF51C9691E27AEA6005A48D6 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */; };
 		DF51C96B1E27AEDD005A48D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF51C96A1E27AEDD005A48D6 /* Main.storyboard */; };
+		DF677CDC1E27FD8C00CEDEF4 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */; };
+		DF677CDE1E27FE0700CEDEF4 /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		DF51C9621E27AE93005A48D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
 		DF51C96A1E27AEDD005A48D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
+		DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotImageView.swift; path = Extensions/DotImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 				DF51C93A1E27AE1A005A48D6 /* LaunchScreen.storyboard */,
 				DF51C93D1E27AE1A005A48D6 /* Info.plist */,
 				DF51C9611E27AE93005A48D6 /* SimpleConsoleView.xib */,
-				DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */,
-				DF51C9431E27AE8B005A48D6 /* Extensions */,
 				DF51C9601E27AE93005A48D6 /* SimpleConsoleView.swift */,
+				DF51C9431E27AE8B005A48D6 /* Extensions */,
+				DF51C95F1E27AE93005A48D6 /* SimpleCnosoleViewExt.swift */,
 				DF51C9681E27AEA6005A48D6 /* SwipeableView.swift */,
 				DF51C95E1E27AE93005A48D6 /* HideButton.swift */,
+				DF677CDB1E27FD8C00CEDEF4 /* TrashButton.swift */,
+				DF677CDD1E27FE0700CEDEF4 /* DotImageView.swift */,
 			);
 			path = SimpleConsoleView;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			files = (
 				DF51C9631E27AE93005A48D6 /* HideButton.swift in Sources */,
 				DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */,
+				DF677CDC1E27FD8C00CEDEF4 /* TrashButton.swift in Sources */,
 				DF51C9541E27AE8B005A48D6 /* NSNotificationObservableExt.swift in Sources */,
 				DF51C95B1E27AE8B005A48D6 /* UITableViewExt.swift in Sources */,
 				DF51C9531E27AE8B005A48D6 /* NSMutableAttributedStringExt.swift in Sources */,
@@ -212,6 +219,7 @@
 				DF51C9561E27AE8B005A48D6 /* StringExt.swift in Sources */,
 				DF51C9551E27AE8B005A48D6 /* NSObjectExt.swift in Sources */,
 				DF51C9651E27AE93005A48D6 /* SimpleConsoleView.swift in Sources */,
+				DF677CDE1E27FE0700CEDEF4 /* DotImageView.swift in Sources */,
 				DF51C95C1E27AE8B005A48D6 /* UIViewControllerExt.swift in Sources */,
 				DF51C9591E27AE8B005A48D6 /* UINavigationBarExt.swift in Sources */,
 				DF51C9511E27AE8B005A48D6 /* DateExt.swift in Sources */,

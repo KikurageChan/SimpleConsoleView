@@ -15,15 +15,15 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func kikurageAction(_ sender: Any) {
-        SCPrintln("木耳ちゃん")
+        SCprintln("木耳ちゃん")
     }
     
     @IBAction func alphaAction(_ sender: Any) {
-        SCPrint(view)
+        SCprint(view)
     }
     
     @IBAction func action(_ sender: Any) {
-        SCPrintln("LOVE")
+        SCprintln("LOVE")
     }
     
 }

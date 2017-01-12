@@ -23,10 +23,40 @@ final class SimpleConsoleView: UIView {
     private(set) var lastFrame: CGRect!
     private(set) var isAnimating = false
     
+    @IBOutlet weak var topLineView: UIView!
+    @IBOutlet weak var bottomLineView: UIView!
     @IBOutlet weak var hideButton: HideButton!
+    @IBOutlet weak var dotImageView: DotImageView!
     @IBOutlet weak var swipeableView: SwipeableView!
+    @IBOutlet weak var trashButton: TrashButton!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var toolBar: UIView!
     
+    
+    
+    public static var backColor = UIColor.white {
+        didSet { getInstance.textView.backgroundColor = backColor }
+    }
+    public static var barColor = UIColor(hex: 0xEBEBF1) {
+        didSet { getInstance.toolBar.backgroundColor = barColor }
+    }
+    public static var barLineColor = UIColor(hex: 0x979797) {
+        didSet {
+            getInstance.topLineView.backgroundColor = barLineColor
+            getInstance.bottomLineView.backgroundColor = barLineColor
+        }
+    }
+    public static var barTintColor = UIColor(hex: 0x979797) {
+        didSet {
+            getInstance.hideButton.tintColor = barTintColor
+            getInstance.dotImageView.tintColor = barTintColor
+            getInstance.trashButton.tintColor = barTintColor
+        }
+    }
+    public static var textColor = UIColor.black {
+        didSet { getInstance.textView.textColor = textColor }
+    }
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -44,7 +74,6 @@ final class SimpleConsoleView: UIView {
         addSubview(view)
         becomeFirstResponder()
         swipeableView.delegate = self
-        textView.backgroundColor = UIColor.random
     }
     
     @IBAction func hideAction(_ sender: Any) {
@@ -113,5 +142,3 @@ extension SimpleConsoleView: SwipeableViewDelegate {
         hideButton.isPressed = frame.size.height <= minSize.height
     }
 }
-
-

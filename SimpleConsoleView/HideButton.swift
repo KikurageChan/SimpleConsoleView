@@ -10,8 +10,8 @@ import UIKit
 
 final class HideButton: UIButton {
     
-    var upImage = UIImage(named: "Hide_up")
-    var downImage = UIImage(named: "Hide_down")
+    var upImage = UIImage(named: "Hide_up")?.withRenderingMode(.alwaysTemplate)
+    var downImage = UIImage(named: "Hide_down")?.withRenderingMode(.alwaysTemplate)
     
     var isPressed = false {
         didSet {
@@ -22,5 +22,7 @@ final class HideButton: UIButton {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setImage(downImage, for: .normal)
+        tintColor = UIColor(hex: 0x979797)
     }
 }
