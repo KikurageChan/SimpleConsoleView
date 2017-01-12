@@ -25,6 +25,4 @@ class MainViewController: UIViewController {
     @IBAction func action(_ sender: Any) {
         SCprintln("LOVE")
     }
-    
 }
-

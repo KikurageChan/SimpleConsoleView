@@ -14,12 +14,14 @@ public extension UIViewController {
     public func SCprint<T: CustomStringConvertible>(_ item: T) {
         let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
+        view.bringSubview(toFront: consoleView)
         consoleView.display(item.description)
     }
     
     public func SCprintln<T: CustomStringConvertible>(_ item: T) {
         let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
+        view.bringSubview(toFront: consoleView)
         consoleView.display(atNewLine: item.description)
     }
 }
