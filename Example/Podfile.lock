@@ -1,0 +1,16 @@
+PODS:
+  - SimpleConsoleView (0.1.0)
+
+DEPENDENCIES:
+  - SimpleConsoleView (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleConsoleView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleConsoleView: 799235aede65434b4244da230ae374d6678cde70
+
+PODFILE CHECKSUM: e61c83c0c5c5cedb8fa54d62325cfeb5e5447afe
+
+COCOAPODS: 1.1.1

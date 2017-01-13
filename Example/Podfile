@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleConsoleView_Example' do
+  pod 'SimpleConsoleView', :path => '../'
+
+  target 'SimpleConsoleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

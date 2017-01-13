@@ -1,0 +1,6 @@
+framework module SimpleConsoleView {
+  umbrella header "SimpleConsoleView-umbrella.h"
+
+  export *
+  module * { export * }
+}
