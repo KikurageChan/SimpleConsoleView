@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Test
+//  Example
 //
 //  Created by 木耳ちゃん on 2017/01/13.
 //  Copyright © 2017年 木耳ちゃん. All rights reserved.

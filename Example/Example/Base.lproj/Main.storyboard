@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake it to hide !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf9-ki-Grc">
+                                <rect key="frame" x="85.5" y="272" width="149.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1e-TK-Zhg">
+                                <rect key="frame" x="35" y="130" width="250" height="50"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="jnH-yX-lVp"/>
+                                    <constraint firstAttribute="height" constant="50" id="v5z-qK-TId"/>
+                                </constraints>
+                                <state key="normal" title="SCprintln(&quot;Cake&quot;)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cake:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caJ-kS-lM1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTj-na-4YM">
+                                <rect key="frame" x="35" y="190" width="250" height="50"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="cot-hp-GOU"/>
+                                    <constraint firstAttribute="height" constant="50" id="ezT-Iw-0Iv"/>
+                                </constraints>
+                                <state key="normal" title="SCprintln(self.view)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewPrint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yP2-Lo-oh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekr-xO-wbU">
+                                <rect key="frame" x="35" y="70" width="250" height="50"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EgQ-fl-XIk"/>
+                                    <constraint firstAttribute="width" constant="250" id="mId-cp-pph"/>
+                                </constraints>
+                                <state key="normal" title="SCprint(&quot;Apple&quot;)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="apple:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mat-EU-7j9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yf9-ki-Grc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0bN-ZJ-Suy"/>
+                            <constraint firstItem="V1e-TK-Zhg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7tj-BH-nvJ"/>
+                            <constraint firstItem="yf9-ki-Grc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CIW-Rn-PeL"/>
+                            <constraint firstItem="kTj-na-4YM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ILg-ol-MkM"/>
+                            <constraint firstItem="V1e-TK-Zhg" firstAttribute="top" secondItem="ekr-xO-wbU" secondAttribute="bottom" constant="10" id="Uup-m1-k2c"/>
+                            <constraint firstItem="ekr-xO-wbU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WDI-uC-nY7"/>
+                            <constraint firstItem="kTj-na-4YM" firstAttribute="top" secondItem="V1e-TK-Zhg" secondAttribute="bottom" constant="10" id="eOn-JI-Yig"/>
+                            <constraint firstItem="ekr-xO-wbU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="zjR-ZT-SCo"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25.600000000000001" y="35.982008995502248"/>
+        </scene>
+    </scenes>
+</document>
