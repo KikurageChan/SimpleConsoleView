@@ -8,11 +8,6 @@
 
 import UIKit
 
-enum OriginalColor: Int {
-    case white = 0xffffff
-    case black = 0x000000
-}
-
 extension UIColor {
     
     open class var random: UIColor {
@@ -20,7 +15,7 @@ extension UIColor {
     }
     
     convenience init(_ r:Int,_ g:Int,_ b:Int,a:CGFloat = 1.0) {
-        self.init(red:CGFloat(r) / 255.0,green:CGFloat(g) / 255.0,blue:CGFloat(b) / 255.0,alpha:a)
+        self.init(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0,alpha: a)
     }
     
     convenience init(hex: Int, alpha: CGFloat = 1.0) {
@@ -29,9 +24,5 @@ extension UIColor {
         let blue = CGFloat(hex & 0xFF) / 255.0
         let a = alpha
         self.init(red: red, green: green, blue: blue, alpha: a)
-    }
-    
-    convenience init(_ originalColor:OriginalColor) {
-        self.init(hex: originalColor.rawValue)
     }
 }

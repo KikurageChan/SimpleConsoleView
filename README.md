@@ -5,25 +5,47 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleConsoleView.svg?style=flat)](http://cocoapods.org/pods/SimpleConsoleView)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleConsoleView.svg?style=flat)](http://cocoapods.org/pods/SimpleConsoleView)
 
-## Example
+![sample](https://github.com/KikurageChan/SimpleConsoleView/wiki/images/sample.gif)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
+
+When you enter the following code on ViewController, ConsoleView is displayed at the top
+
+|コード|説明|
+|:-:|:-:|
+|SCprintln(_:)|at new line|
+|SCprint(_:)|no line break|
+
+## Property
+
+![sample](https://github.com/KikurageChan/SimpleConsoleView/wiki/images/property.png)
+
+|Code|
+|:-:|
+|SimpleConsoleView.backColor|
+|SimpleConsoleView.textColor|
+|SimpleConsoleView.barColor|
+|SimpleConsoleView.barLineColor|
+|SimpleConsoleView.barTintColor|
+
+
 
 ## Requirements
 
+- iOS 8.0
+- Swift Version 3.0
+
 ## Installation
 
-SimpleConsoleView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
+use_frameworks!
+
 pod "SimpleConsoleView"
 ```
 
-## Author
+## Example App
 
-KikurageChan, auricularia0817@gmail.com
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## License
-
 SimpleConsoleView is available under the MIT license. See the LICENSE file for more info.

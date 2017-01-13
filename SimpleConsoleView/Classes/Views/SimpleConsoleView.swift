@@ -79,7 +79,6 @@ final public class SimpleConsoleView: UIView {
     
     @IBAction func hideAction(_ sender: Any) {
         if !hideButton.isPressed {
-            //隠れていなかったら
             isAnimating = true
             hideButton.isPressed = true
             lastFrame = frame
@@ -90,7 +89,6 @@ final public class SimpleConsoleView: UIView {
                 self.isAnimating = false
             })
         }else {
-            //隠れていたら
             isAnimating = true
             hideButton.isPressed = false
             UIView.animate(withDuration: 0.5, animations: {
@@ -134,9 +132,9 @@ final public class SimpleConsoleView: UIView {
 extension SimpleConsoleView: SwipeableViewDelegate {
     func swipe(vertical d: CGFloat) {
         if isAnimating { return }
-        //上に行き過ぎの場合
+        //over top
         if frame.origin.y + d < minSize.height { return }
-        //下に行き過ぎの場合
+        //over down
         if frame.origin.y + d > UIScreen.main.bounds.height - minSize.height { return }
         frame.origin.y += d
         frame.size.height -= d

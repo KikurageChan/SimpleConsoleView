@@ -17,10 +17,11 @@ class MainViewController: UIViewController {
         
 //        ---Color Setting---
 //        SimpleConsoleView.backColor = UIColor.black
+//        SimpleConsoleView.textColor = UIColor.black
 //        SimpleConsoleView.barColor = UIColor.black
 //        SimpleConsoleView.barLineColor = UIColor.black
 //        SimpleConsoleView.barTintColor = UIColor.black
-        
+
 //        ---Other---
 //        I'm Sorry... Current version does not support horizontal screen
     }
