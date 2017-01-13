@@ -377,6 +377,7 @@
 				DF55348C1E2894C900920A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

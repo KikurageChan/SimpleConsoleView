@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SimpleConsoleView: d2c8057d2f37023628b38338c5ce1f9e4e7adc20
+  SimpleConsoleView: 9ecfdcbaa0b423ee0ad8512bf0ce8fce28c22fd5
 
 PODFILE CHECKSUM: 0d795eddc6b582abc5b810772dcd516a55428373
 

@@ -10,7 +10,7 @@ import UIKit
 
 final class TrashButton: UIButton {
 
-    var trashImage = UIImage(named: "trash")?.withRenderingMode(.alwaysTemplate)
+    var trashImage = UIImage(named: "trash", in: Bundle(for: DotImageView.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

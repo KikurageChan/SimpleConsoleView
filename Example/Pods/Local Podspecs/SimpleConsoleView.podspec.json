@@ -21,7 +21,8 @@
   "source_files": "SimpleConsoleView/Classes/**/*.swift",
   "resource_bundles": {
     "SimpleConsoleView": [
-      "SimpleConsoleView/Assets/*.xib"
+      "SimpleConsoleView/Assets/*.xib",
+      "SimpleConsoleView/Assets/*.xcassets"
     ]
   },
   "frameworks": "UIKit"

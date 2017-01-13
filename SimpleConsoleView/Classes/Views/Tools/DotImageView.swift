@@ -1,5 +1,5 @@
 //
-//  TrashButton.swift
+//  DotImageView.swift
 //  SimpleConsoleView
 //
 //  Created by 木耳ちゃん on 2017/01/13.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-final class TrashButton: UIButton {
+final class DotImageView: UIImageView {
 
-    var trashImage = UIImage(named: "trash")?.withRenderingMode(.alwaysTemplate)
+    var dotImage = UIImage(named: "dot", in: Bundle(for: DotImageView.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setImage(trashImage, for: .normal)
+        image = dotImage
         tintColor = UIColor(hex: 0x979797)
+        
     }
 }

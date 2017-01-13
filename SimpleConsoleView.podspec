@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*.swift'
+  s.source_files = 'SimpleConsoleView/Classes/**/*.swift'
   
   s.resource_bundles = {
-    'SimpleConsoleView' => ['Assets/*.xib']
+    'SimpleConsoleView' => ['SimpleConsoleView/Assets/*.xib','SimpleConsoleView/Assets/*.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

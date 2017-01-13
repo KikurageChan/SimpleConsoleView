@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class SimpleConsoleView: UIView {
+final public class SimpleConsoleView: UIView {
     class var getInstance : SimpleConsoleView {
         struct Static {
             static let instance : SimpleConsoleView = SimpleConsoleView()
@@ -31,8 +31,6 @@ final class SimpleConsoleView: UIView {
     @IBOutlet weak var trashButton: TrashButton!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var toolBar: UIView!
-    
-    
     
     public static var backColor = UIColor.white {
         didSet { getInstance.textView.backgroundColor = backColor }
@@ -57,7 +55,7 @@ final class SimpleConsoleView: UIView {
         didSet { getInstance.textView.textColor = textColor }
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -68,7 +66,10 @@ final class SimpleConsoleView: UIView {
         hideFrame = CGRect(origin: CGPoint(x: 0, y: screenSize.height - minSize.height), size: minSize)
         lastFrame = defaultFrame
         super.init(frame: defaultFrame)
-        let view = Bundle.main.loadNibNamed("SimpleConsoleView", owner: self, options: nil)?.first as! UIView
+        let pod = Bundle(for: self.classForCoder)
+        let path = pod.path(forResource: "SimpleConsoleView", ofType: "bundle")!
+        let bundle = Bundle(path: path)
+        let view = UINib(nibName: "SimpleConsoleView", bundle: bundle).instantiate(withOwner: self, options: nil).first as! UIView
         autoresizesSubviews = true
         view.frame = bounds
         addSubview(view)
@@ -119,11 +120,11 @@ final class SimpleConsoleView: UIView {
         textView.text = textView.text + "\n"
     }
     
-    override var canBecomeFirstResponder: Bool {
+    override public var canBecomeFirstResponder: Bool {
         return true
     }
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override public func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == UIEventSubtype.motionShake {
             isHidden ? fadeIn() : fadeOut()
         }

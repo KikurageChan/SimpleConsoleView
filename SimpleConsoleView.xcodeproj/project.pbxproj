@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DF51C9321E27AE1A005A48D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9311E27AE1A005A48D6 /* AppDelegate.swift */; };
-		DF51C9391E27AE1A005A48D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF51C9381E27AE1A005A48D6 /* Assets.xcassets */; };
 		DF51C93C1E27AE1A005A48D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF51C93A1E27AE1A005A48D6 /* LaunchScreen.storyboard */; };
-		DF51C9581E27AE8B005A48D6 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C94B1E27AE8B005A48D6 /* UIColorExt.swift */; };
-		DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */; };
-		DF5534461E2882EC00920A6F /* SimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534451E2882EC00920A6F /* SimpleCnosoleViewExt.swift */; };
-		DF677CE91E2803F600CEDEF4 /* SimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */; };
-		DF677CEA1E2803F600CEDEF4 /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */; };
-		DF677CEB1E2803F600CEDEF4 /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE51E2803F600CEDEF4 /* DotImageView.swift */; };
-		DF677CEC1E2803F600CEDEF4 /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE61E2803F600CEDEF4 /* HideButton.swift */; };
-		DF677CED1E2803F600CEDEF4 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */; };
-		DF677CEE1E2803F600CEDEF4 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CE81E2803F600CEDEF4 /* TrashButton.swift */; };
+		DF5534C41E28AC3200920A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5534C21E28AC3200920A6F /* Assets.xcassets */; };
+		DF5534C51E28AC3200920A6F /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5534C31E28AC3200920A6F /* SimpleConsoleView.xib */; };
+		DF5534D31E28AC4200920A6F /* SimpleCnosoleViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534C81E28AC4200920A6F /* SimpleCnosoleViewExt.swift */; };
+		DF5534D41E28AC4200920A6F /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534C91E28AC4200920A6F /* UIColorExt.swift */; };
+		DF5534D51E28AC4200920A6F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534CA1E28AC4200920A6F /* UIViewExt.swift */; };
+		DF5534D61E28AC4200920A6F /* SimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534CC1E28AC4200920A6F /* SimpleConsoleView.swift */; };
+		DF5534D71E28AC4200920A6F /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5534CD1E28AC4200920A6F /* SimpleConsoleView.xib */; };
+		DF5534D81E28AC4200920A6F /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534CF1E28AC4200920A6F /* DotImageView.swift */; };
+		DF5534D91E28AC4200920A6F /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534D01E28AC4200920A6F /* HideButton.swift */; };
+		DF5534DA1E28AC4200920A6F /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534D11E28AC4200920A6F /* SwipeableView.swift */; };
+		DF5534DB1E28AC4200920A6F /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5534D21E28AC4200920A6F /* TrashButton.swift */; };
 		DF677CF81E28049D00CEDEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF677CF61E28049D00CEDEF4 /* Main.storyboard */; };
 		DF677CF91E28049D00CEDEF4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF677CF71E28049D00CEDEF4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,18 +27,19 @@
 /* Begin PBXFileReference section */
 		DF51C92E1E27AE1A005A48D6 /* SimpleConsoleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleConsoleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF51C9311E27AE1A005A48D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF51C9381E27AE1A005A48D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF51C93B1E27AE1A005A48D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF51C93D1E27AE1A005A48D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF51C94B1E27AE8B005A48D6 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		DF5534451E2882EC00920A6F /* SimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
-		DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleConsoleView.swift; sourceTree = "<group>"; };
-		DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
-		DF677CE51E2803F600CEDEF4 /* DotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotImageView.swift; sourceTree = "<group>"; };
-		DF677CE61E2803F600CEDEF4 /* HideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
-		DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
-		DF677CE81E2803F600CEDEF4 /* TrashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
+		DF5534C21E28AC3200920A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5534C31E28AC3200920A6F /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
+		DF5534C81E28AC4200920A6F /* SimpleCnosoleViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCnosoleViewExt.swift; sourceTree = "<group>"; };
+		DF5534C91E28AC4200920A6F /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		DF5534CA1E28AC4200920A6F /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		DF5534CC1E28AC4200920A6F /* SimpleConsoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleConsoleView.swift; sourceTree = "<group>"; };
+		DF5534CD1E28AC4200920A6F /* SimpleConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
+		DF5534CF1E28AC4200920A6F /* DotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotImageView.swift; sourceTree = "<group>"; };
+		DF5534D01E28AC4200920A6F /* HideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
+		DF5534D11E28AC4200920A6F /* SwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
+		DF5534D21E28AC4200920A6F /* TrashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
 		DF677CF61E28049D00CEDEF4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DF677CF71E28049D00CEDEF4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,42 +76,59 @@
 			children = (
 				DF677CF51E28049D00CEDEF4 /* Controllers */,
 				DF51C9311E27AE1A005A48D6 /* AppDelegate.swift */,
-				DF51C9381E27AE1A005A48D6 /* Assets.xcassets */,
 				DF51C93A1E27AE1A005A48D6 /* LaunchScreen.storyboard */,
 				DF51C93D1E27AE1A005A48D6 /* Info.plist */,
-				DF677CE11E2803F600CEDEF4 /* Views */,
-				DF51C9431E27AE8B005A48D6 /* Extensions */,
+				DF5534C11E28AC3200920A6F /* Assets */,
+				DF5534C61E28AC4200920A6F /* Classes */,
 			);
 			path = SimpleConsoleView;
 			sourceTree = "<group>";
 		};
-		DF51C9431E27AE8B005A48D6 /* Extensions */ = {
+		DF5534C11E28AC3200920A6F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DF5534451E2882EC00920A6F /* SimpleCnosoleViewExt.swift */,
-				DF51C94B1E27AE8B005A48D6 /* UIColorExt.swift */,
-				DF51C9501E27AE8B005A48D6 /* UIViewExt.swift */,
+				DF5534C21E28AC3200920A6F /* Assets.xcassets */,
+				DF5534C31E28AC3200920A6F /* SimpleConsoleView.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DF5534C61E28AC4200920A6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF5534C71E28AC4200920A6F /* Extensions */,
+				DF5534CB1E28AC4200920A6F /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF5534C71E28AC4200920A6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF5534C81E28AC4200920A6F /* SimpleCnosoleViewExt.swift */,
+				DF5534C91E28AC4200920A6F /* UIColorExt.swift */,
+				DF5534CA1E28AC4200920A6F /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		DF677CE11E2803F600CEDEF4 /* Views */ = {
+		DF5534CB1E28AC4200920A6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DF677CE21E2803F600CEDEF4 /* SimpleConsoleView.swift */,
-				DF677CE31E2803F600CEDEF4 /* SimpleConsoleView.xib */,
-				DF677CE41E2803F600CEDEF4 /* Tools */,
+				DF5534CC1E28AC4200920A6F /* SimpleConsoleView.swift */,
+				DF5534CD1E28AC4200920A6F /* SimpleConsoleView.xib */,
+				DF5534CE1E28AC4200920A6F /* Tools */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		DF677CE41E2803F600CEDEF4 /* Tools */ = {
+		DF5534CE1E28AC4200920A6F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				DF677CE51E2803F600CEDEF4 /* DotImageView.swift */,
-				DF677CE61E2803F600CEDEF4 /* HideButton.swift */,
-				DF677CE71E2803F600CEDEF4 /* SwipeableView.swift */,
-				DF677CE81E2803F600CEDEF4 /* TrashButton.swift */,
+				DF5534CF1E28AC4200920A6F /* DotImageView.swift */,
+				DF5534D01E28AC4200920A6F /* HideButton.swift */,
+				DF5534D11E28AC4200920A6F /* SwipeableView.swift */,
+				DF5534D21E28AC4200920A6F /* TrashButton.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -184,8 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF51C93C1E27AE1A005A48D6 /* LaunchScreen.storyboard in Resources */,
-				DF51C9391E27AE1A005A48D6 /* Assets.xcassets in Resources */,
-				DF677CEA1E2803F600CEDEF4 /* SimpleConsoleView.xib in Resources */,
+				DF5534C41E28AC3200920A6F /* Assets.xcassets in Resources */,
+				DF5534D71E28AC4200920A6F /* SimpleConsoleView.xib in Resources */,
+				DF5534C51E28AC3200920A6F /* SimpleConsoleView.xib in Resources */,
 				DF677CF81E28049D00CEDEF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,15 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF677CF91E28049D00CEDEF4 /* MainViewController.swift in Sources */,
-				DF51C95D1E27AE8B005A48D6 /* UIViewExt.swift in Sources */,
-				DF677CEC1E2803F600CEDEF4 /* HideButton.swift in Sources */,
-				DF677CEE1E2803F600CEDEF4 /* TrashButton.swift in Sources */,
-				DF5534461E2882EC00920A6F /* SimpleCnosoleViewExt.swift in Sources */,
-				DF677CEB1E2803F600CEDEF4 /* DotImageView.swift in Sources */,
+				DF5534D91E28AC4200920A6F /* HideButton.swift in Sources */,
+				DF5534DB1E28AC4200920A6F /* TrashButton.swift in Sources */,
+				DF5534D41E28AC4200920A6F /* UIColorExt.swift in Sources */,
+				DF5534D61E28AC4200920A6F /* SimpleConsoleView.swift in Sources */,
+				DF5534DA1E28AC4200920A6F /* SwipeableView.swift in Sources */,
+				DF5534D51E28AC4200920A6F /* UIViewExt.swift in Sources */,
+				DF5534D31E28AC4200920A6F /* SimpleCnosoleViewExt.swift in Sources */,
 				DF51C9321E27AE1A005A48D6 /* AppDelegate.swift in Sources */,
-				DF51C9581E27AE8B005A48D6 /* UIColorExt.swift in Sources */,
-				DF677CED1E2803F600CEDEF4 /* SwipeableView.swift in Sources */,
-				DF677CE91E2803F600CEDEF4 /* SimpleConsoleView.swift in Sources */,
+				DF5534D81E28AC4200920A6F /* DotImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

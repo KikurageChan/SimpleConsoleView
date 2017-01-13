@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A6324923B27E6E9B82B2C98EBC0942E /* SimpleConsoleView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A931CE151CA9F70EF1ADAE68A88BEB20 /* SimpleConsoleView.bundle */; };
 		10A6CE6E2BDD0EA718F6BE6ECEE86DFB /* HideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855CF4877C8A277D0AAC6070065DA09 /* HideButton.swift */; };
-		1669A87AA4B2029A12F8FD1B03158757 /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7741AC714F7F87C9902FB506C9CE821 /* SimpleConsoleView.xib */; };
 		19E7CDBD9EF3FBB2E8334964D0B7C132 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BCBE5D92425A5616D87F0F7F6A8FB0 /* Pods-Test-dummy.m */; };
 		257F6B7524C778FFF781A08728BA285C /* SimpleConsoleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F8D71496830AA83524A1D8E6EA3F2 /* SimpleConsoleView-dummy.m */; };
 		325BE18CDAE5BA2925F35F01A37FABDD /* SimpleConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892C401B03BC8E8D79591CEA9FC4E41 /* SimpleConsoleView.swift */; };
@@ -18,10 +17,12 @@
 		901DE1C4048C6CB00695B00A0D9ADC65 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC36718423582E1BC11A5200819C80 /* UIViewExt.swift */; };
 		90B0759A54A54FDCD69BF3BD05DF3723 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979C55B623A82C844D5E6B79E6B2477E /* TrashButton.swift */; };
 		97BA3D0FD9048ADDFDFC75B12EF84F76 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74017613D89DB0F147FF99DC7C499E8E /* UIColorExt.swift */; };
+		A2B902F073337B4B36CB38112EEB00B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716D70E5580399ADB668B5F41E46A324 /* Assets.xcassets */; };
 		A5A62F7914DD68DC95AB83FC86AEB1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		A742CA495DF661BAC7DE6E7DC5978718 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		A8E74386F081B9265B88F1E82ADC76B9 /* SimpleConsoleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9D8CAFD98AC0BFDBC9244B6D66B756 /* SimpleConsoleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFA7D1EA2144F0ED6021D664BA362D71 /* DotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CE6CF1BB7EC8CF12F69BC3DE5E6B4 /* DotImageView.swift */; };
+		B8924CAA1ECBA76446ADD9C3B235E32F /* SimpleConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA5F31FEB6102B40242D61990DC1698 /* SimpleConsoleView.xib */; };
 		D08FA3347BEBB30429000BD27D945586 /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACB25F210CEF934181B83001A6D03C /* SwipeableView.swift */; };
 		EF396689B484BB73331AF06E1D3AB6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		649AB7FDA2C0B28BC27E0EA64BDA94C7 /* Pods-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-resources.sh"; sourceTree = "<group>"; };
 		64F36378C8A4284D1F56465700798803 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67A06FDCC32E0E3365130F4747A552A6 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		716D70E5580399ADB668B5F41E46A324 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74017613D89DB0F147FF99DC7C499E8E /* UIColorExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		83EB2D70A5C4815FF0A2A5A41DA95FD6 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test.framework; path = "Pods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +74,7 @@
 		BF4402B85EEFCBC1097EC6236D4DD5DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C855CF4877C8A277D0AAC6070065DA09 /* HideButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HideButton.swift; sourceTree = "<group>"; };
 		D2AC36718423582E1BC11A5200819C80 /* UIViewExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		D7741AC714F7F87C9902FB506C9CE821 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
+		DBA5F31FEB6102B40242D61990DC1698 /* SimpleConsoleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SimpleConsoleView.xib; sourceTree = "<group>"; };
 		E048F787477130205467EF03CE43BD55 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		F84CE6CF1BB7EC8CF12F69BC3DE5E6B4 /* DotImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotImageView.swift; sourceTree = "<group>"; };
 		FF0B56AAE16063C65EBC86CDD99F0C27 /* ResourceBundle-SimpleConsoleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SimpleConsoleView-Info.plist"; sourceTree = "<group>"; };
@@ -132,12 +134,31 @@
 			path = "Example/Pods/Target Support Files/SimpleConsoleView";
 			sourceTree = "<group>";
 		};
+		423820D50ACD0E7854B895E7D6127D9D /* SimpleConsoleView */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7BA2F57548F8A968DB3389DB6A048 /* Assets */,
+			);
+			name = SimpleConsoleView;
+			path = SimpleConsoleView;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF7BA2F57548F8A968DB3389DB6A048 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				716D70E5580399ADB668B5F41E46A324 /* Assets.xcassets */,
+				DBA5F31FEB6102B40242D61990DC1698 /* SimpleConsoleView.xib */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		57A5A82C5B98DB280F4D11B552A01505 /* Targets Support Files */ = {
@@ -172,7 +193,7 @@
 		7DB4094674AF1ABFD5FBF42679F7E0B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D4334C8DD9516638EBA282E4A333F594 /* SimpleConsoleView */,
+				423820D50ACD0E7854B895E7D6127D9D /* SimpleConsoleView */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -233,15 +254,6 @@
 			path = SimpleConsoleView;
 			sourceTree = "<group>";
 		};
-		D4334C8DD9516638EBA282E4A333F594 /* SimpleConsoleView */ = {
-			isa = PBXGroup;
-			children = (
-				FF587992570A7B2FB9859A1F921C0DDB /* Assets */,
-			);
-			name = SimpleConsoleView;
-			path = SimpleConsoleView;
-			sourceTree = "<group>";
-		};
 		D806FF402DE222E7B123F4FF4C168F8E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,15 +283,6 @@
 			);
 			name = Tools;
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		FF587992570A7B2FB9859A1F921C0DDB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				D7741AC714F7F87C9902FB506C9CE821 /* SimpleConsoleView.xib */,
-			);
-			name = Assets;
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,7 +350,7 @@
 			buildPhases = (
 				98B930D779610BCD71714AA8B77DE281 /* Sources */,
 				BFB8C884C4934E45DC7E90BF072BDE18 /* Frameworks */,
-				D1A4D4F8F91D3D938868D7F861A318DA /* Resources */,
+				7A5EA738696F4BEBFD83822F1AE6E458 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -395,11 +398,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1A4D4F8F91D3D938868D7F861A318DA /* Resources */ = {
+		7A5EA738696F4BEBFD83822F1AE6E458 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1669A87AA4B2029A12F8FD1B03158757 /* SimpleConsoleView.xib in Resources */,
+				A2B902F073337B4B36CB38112EEB00B2 /* Assets.xcassets in Resources */,
+				B8924CAA1ECBA76446ADD9C3B235E32F /* SimpleConsoleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

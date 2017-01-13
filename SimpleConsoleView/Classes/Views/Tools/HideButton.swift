@@ -10,8 +10,8 @@ import UIKit
 
 final class HideButton: UIButton {
     
-    var upImage = UIImage(named: "Hide_up")?.withRenderingMode(.alwaysTemplate)
-    var downImage = UIImage(named: "Hide_down")?.withRenderingMode(.alwaysTemplate)
+    var upImage = UIImage(named: "Hide_up", in: Bundle(for: DotImageView.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+    var downImage = UIImage(named: "Hide_down", in: Bundle(for: DotImageView.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     
     var isPressed = false {
         didSet {
