@@ -22,7 +22,7 @@ pod "SimpleConsoleView"
 
 ## Author
 
-KikurageChan, cihi14057@g.nihon-u.ac.jp
+KikurageChan, auricularia0817@gmail.com
 
 ## License
 

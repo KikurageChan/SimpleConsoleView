@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleConsoleView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'You can display a simple console on ViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SimpleConsoleView/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
-  # s.resource_bundles = {
-  #   'SimpleConsoleView' => ['SimpleConsoleView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SimpleConsoleView' => ['Assets/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
