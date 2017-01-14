@@ -16,6 +16,5 @@ final class DotImageView: UIImageView {
         super.init(coder: aDecoder)
         image = dotImage
         tintColor = UIColor(hex: 0x979797)
-        
     }
 }
