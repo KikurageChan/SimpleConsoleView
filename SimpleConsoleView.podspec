@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KikurageChan' => 'auricularia0817@gmail.com' }
-  s.source           = { :git => 'https://github.com/KikurageChan/SimpleConsoleView.git', :tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/KikurageChan/SimpleConsoleView.git', :tag => '1.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
