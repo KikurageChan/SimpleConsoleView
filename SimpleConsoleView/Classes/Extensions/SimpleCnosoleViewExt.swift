@@ -15,6 +15,7 @@ public extension UIViewController {
         let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
         view.bringSubview(toFront: consoleView)
+        consoleView.becomeFirstResponder()
         consoleView.display(item.description)
     }
     
@@ -22,6 +23,7 @@ public extension UIViewController {
         let consoleView = SimpleConsoleView.getInstance
         view.addSubview(consoleView)
         view.bringSubview(toFront: consoleView)
+        consoleView.becomeFirstResponder()
         consoleView.display(atNewLine: item.description)
     }
 }
