@@ -9,6 +9,7 @@
 import UIKit
 
 protocol SwipeableViewDelegate: class {
+    func touch()
     func swipe(vertical d: CGFloat)
 }
 
@@ -18,6 +19,10 @@ final class SwipeableView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        delegate?.touch()
     }
 
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {

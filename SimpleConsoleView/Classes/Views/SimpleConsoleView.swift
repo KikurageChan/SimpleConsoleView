@@ -73,7 +73,6 @@ final public class SimpleConsoleView: UIView {
         autoresizesSubviews = true
         view.frame = bounds
         addSubview(view)
-        becomeFirstResponder()
         swipeableView.delegate = self
     }
     
@@ -130,6 +129,10 @@ final public class SimpleConsoleView: UIView {
 }
 
 extension SimpleConsoleView: SwipeableViewDelegate {
+    func touch() {
+        becomeFirstResponder()
+    }
+
     func swipe(vertical d: CGFloat) {
         if isAnimating { return }
         //over top
